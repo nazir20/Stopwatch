@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+body{
+    background-color: #6A67CE;
+    font-family: 'Catamaran', sans-serif;
+}
+.container{
+    text-align: center;
+    margin: 5% auto;
+}
+#hours, #minutes, #seconds, #tens{
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    background-color: #5902EC;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 20px 10px;
+    width: 200px;
+    margin: 10px;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    font-family: 'Catamaran', sans-serif;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.055);
+  backdrop-filter: blur(5px);
+    color: #fff;
+}
